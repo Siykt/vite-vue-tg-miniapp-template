@@ -1,0 +1,22 @@
+@layer base, vant, components, utilities;
+@import 'vant/lib/index.css' layer(vant);
+@import 'tailwindcss';
+
+html,
+body,
+:root,
+#app {
+  width: 100dvw;
+  height: 100dvh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+@layer vant {
+  /* add vant styles here */
+}
+
+@layer utilities {
+  /* add utilities styles here */
+}
